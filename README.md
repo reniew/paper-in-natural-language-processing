@@ -129,11 +129,11 @@ Machine Translation이란 기계 번역 분야로 NLP의 핵심 Task 중 하나 
 
 Machine Translation 분야의 논문들의 목록은 다음과 같습니다.
 
-* Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation(https://reniew.github.io/31/)
-* Sequence to Sequence Learning with Neural Network](https://reniew.github.io/35/)
-* Neural Machine Translation by Jointly Learning to Align and Translate](https://reniew.github.io/37/)
-* Convolutional Seqeunce to Sequence Learning](https://reniew.github.io/44/)
-* Attention Is All You Need](https://reniew.github.io/43/)
+* Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+* Sequence to Sequence Learning with Neural Network
+* Neural Machine Translation by Jointly Learning to Align and Translate
+* Convolutional Seqeunce to Sequence Learning
+* Attention Is All You Need
 
 ## Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
 
