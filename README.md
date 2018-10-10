@@ -4,6 +4,7 @@
 자연어처리를 공부하며 정리한 내용들을 정리하고 있습니다. 계속해서 update될 예정이며 향후 구현도 추가될 예정입니다. 논문들은 Task 별로 분류해두었으며 github에 Task들의 간단한 소개와 각 논문들에 대해 간단하게 설명해두었습니다. 논문에 대한 자세한 내용과 리뷰는 링크를 통해 블로그 글을 참고하시면 됩니다!  
 
 </br>
+
 ## Table of Contents
 
 
@@ -27,6 +28,7 @@
   * [End to End Memory Network](https://reniew.github.io/46/)
 
 ---
+
 </br>
 
 # Word Representation
@@ -66,7 +68,9 @@ Paper|Blog|author
 Word2Vec 이후에 Stanford에서 만든 word embedding 기법으로 Glove로 불리는 모델입니다. 기존의 Word2Vec 모델이 Shallow Predict 모델이라 할 수 있다면, 해당 모델은 좀 더 Statistical한 정보를 담아서 학습할 수 있도록 만든 모델입니다. NLP 모델들이 Pre-trained 된 word vector를 사용한는 경우가 많은데 보통 Glove로 pre-trained 된 vector를 사용합니다. Word2vec과 학습 과정의 차이를 이해하며 알아보는 것을 추천합니다.
 
 </br>
+
 ---
+
 </br>
 
 # Text Classification
@@ -172,7 +176,9 @@ Paper|Blog|Author
 Google 에서 만든 모델로 기존의 모델들은 RNN 혹은 CNN을 사용한 모델을 기반으로 부가적인 기법으로 Attention을 사용했는데 해당 모델에서는 Attention 만을 사용해서 모델을 만들었습니다. 기본적인 Feed Forward Network와 Attention 기법 그리고 추가적으로 Residual connection을 사용했습니다. 그리고 해당 모델에서 두 가지의 attention 기법이 소개 되었는데, 하나는 Scaled dot-product attention이고 하나는 Multi-head attention입니다. 다양한 Attention 기법들이 있는데, attention 만을 사용해서 높은 성능을 보인만큼 의미있는 논문이라 생각됩니다.
 
 </br>
+
 ---
+
 </br>
 
 # Question Answering
