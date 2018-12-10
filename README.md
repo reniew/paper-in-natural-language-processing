@@ -26,7 +26,7 @@
 * [Question Answering](#question-answering)
   * [Memory Network](https://reniew.github.io/45/)
   * [End to End Memory Network](https://reniew.github.io/46/)
-
+* [Pre-training](#pre-training)
 ---
 
 </br>
@@ -206,6 +206,29 @@ Paper|Blog|Author
 [Link](https://arxiv.org/pdf/1503.08895.pdf)|[Link](https://reniew.github.io/46/)|S Sukhbaatar, J Weston, R Fergus
 
 기존의 Memory Network는 모든 과정이 supervise해서 제약이 있다는 문제점을 End to End 한 모델을 통해 해결하고 있습니다. 모델 자체가 end-to-end를 목적으로 만들어 졌기 때문에 기존의 모델보다 조금 더 간단한 형태입니다. 그리고 기존의 모델처럼 제약을 받지 않으므로 범용적으로 사용할 수 있다는 점이 해당 모델의 장점입니다.
+
+</br>
+
+---
+
+</br>
+
+# Pre-training
+
+Pre-training이란 실제 task를 위한 architecture와는 별개로 사전 학습을 통해 모델의 성능을 올리기 위한 기법들입니다. feature based한 모델과 fine-tuning을 위한 모델로 구분됩니다. 경우에 따라 실제 task 모델 architecture를 별개로 설계하기도 하고, 혹은 기존의 Pre-training 모델을 그대로 사용하기도 합니다.
+
+Pre-training을 위한 논문들의 목록은 다음과 같습니다.
+
+* BERT: Bidirectional Transformers for Language Understanding
+
+
+## BERT: Bidirectional Transformers for Language Understanding
+
+Paper|Blog|Author
+--|--|--
+[Link](https://arxiv.org/pdf/1810.04805.pdf)|[Link](https://reniew.github.io/47/)|Jacob Devlin et al.
+
+Google 에서 나온 논문으로 Transformer 모델을 기반으로 Pre-training을 위한 모델을 소개하고 있습니다. 해당 모델을 통해 NLP의 모든 task의 성능을 향상 시켰으며, 어떤 task등 하나의 모델로 모두 적용할 수 있다는 점이 장점입니다.
 
 </br>
 
